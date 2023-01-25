@@ -1,0 +1,36 @@
+/* Establezca el tamaño y el margen del contenedor principal */
+#container {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+  }
+  
+  /* Establezca el tamaño y el margen del contenedor izquierdo */
+  #left-container {
+    width: 60%;
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Establezca el tamaño y el margen del contenedor derecho */
+  #right-container {
+    width: 40%;
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Establezca el tamaño y el margen de cada gráfico dentro del contenedor izquierdo */
+  #bar-chart, #pie-chart, #line-chart {
+    width: 100%;
+    height: 33%;
+    margin: 0;
+  }
+  
+  /* Establezca el tamaño y el margen del mapa dentro del contenedor derecho */
+  #map {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+  
