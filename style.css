@@ -33,4 +33,18 @@
     height: 100%;
     margin: 0;
   }
-  
+
+  @font-face {
+    font-family: 'Roboto Slab';
+    src: url('fonts/RobotoSlab-Regular.ttf') format('truetype');
+}
+
+
+/* Establecer tipo de letra para toda la página */
+  body {
+    font-family: 'Ubuntu Mono', monospace;
+  }
+   /* Establecer tipo de letra solo para el título */
+   .title {
+    font-family: 'Roboto Slab', monospace;
+  }
