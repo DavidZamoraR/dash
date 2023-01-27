@@ -1,23 +1,29 @@
+body {
+  background-color: #ECE5DD;
+  margin: 50px;
+  font-family: Arial, Helvetica, Verdana, Futura, sans-serif;
+}
 /* Establezca el tamaño y el margen del contenedor principal */
 #container {
     width: 100%;
     height: 100vh;
-    margin: 0;
+    margin: 3px;
     display: flex;
+    font-size: 20px;
   }
   
   /* Establezca el tamaño y el margen del contenedor izquierdo */
   #left-container {
     width: 60%;
     height: 100%;
-    margin: 0;
+    margin: 1px;
   }
   
   /* Establezca el tamaño y el margen del contenedor derecho */
   #right-container {
     width: 40%;
     height: 100%;
-    margin: 0;
+    margin: 1px;
   }
   
   /* Establezca el tamaño y el margen de cada gráfico dentro del contenedor izquierdo */
@@ -38,13 +44,15 @@
     font-family: 'Roboto Slab';
     src: url('fonts/RobotoSlab-Regular.ttf') format('truetype');
 }
+  .title {
+    font-family: 'Roboto Slab', serif;
+    background-color: #075E54;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 42px;
+    margin: 3px;
+  }
 
 
-/* Establecer tipo de letra para toda la página */
-  body {
-    font-family: 'Ubuntu Mono', monospace;
-  }
-   /* Establecer tipo de letra solo para el título */
-   .title {
-    font-family: 'Roboto Slab', monospace;
-  }
